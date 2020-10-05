@@ -1,0 +1,183 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Add framewok*/
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.main-color {
+  color: #f7600e;
+}
+
+.main-background {
+  background-color: #f37126;
+}
+
+/*End framework*/
+
+/*start header*/
+
+header {
+  background: url("../images/macbook-925614\ copy.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+header .overlay {
+  background-color: rgba(42, 46, 52, 0.9);
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+header .nav-bar {
+  padding: 5px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-bar .links {
+  float: right;
+}
+
+header .nav-bar .links i {
+  margin-left: 5px;
+}
+
+header .intro {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+header .intro h1 {
+  width: 100%;
+  font-weight: 800;
+  margin: 0;
+  font-size: 50px;
+}
+
+header .intro p {
+  margin: 10px 0px 40px 0px;
+  line-height: 1.9;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+header .buttons button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #909090;
+  padding: 5px 15px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  width: 150px;
+  transition: all 0.3s ease-in-out;
+}
+
+header .buttons button:hover {
+  background-color: #f7600e;
+  color: #fff;
+  border: 1px solid #f7600e;
+}
+
+header .arrow {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+header .arrow i {
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+
+main #section-a {
+  height: 80vh;
+  margin: 0px 100px;
+}
+
+main .disp {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+main .box {
+  text-align: center;
+  padding: 20px;
+}
+
+main .box i {
+  border: 1px solid #909090;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  line-height: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+main .box i:hover {
+  background-color: #f7600e;
+  border: 1px solid #f7600e;
+  color: #fff;
+}
+
+main .box p {
+  line-height: 1.9;
+}
+
+/*end header*/
+
+main .subscribe {
+  background: url("../images/subscribe.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+main .overlay {
+  background-color: rgba(42, 46, 52, 0.9);
+  background-size: cover;
+  width: 100%;
+}
+
+main #section-b input {
+  margin: 80px 15px 80px 0px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 400px;
+}
+
+main #section-b button {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f7600e;
+  width: 150px;
+  color: #fff;
+}
